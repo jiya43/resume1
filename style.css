@@ -1,0 +1,30 @@
+/* Circle Profile Image */
+.profile-image-circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Wrapper for bottom-left placement */
+.profile-wrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+/* Hero card styling */
+.updated-hero {
+  position: relative;
+  padding-left: 200px;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+}
+
+/* Text section beside image */
+.hero-text {
+  margin-left: 20px;
+}
